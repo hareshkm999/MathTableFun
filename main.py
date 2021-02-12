@@ -61,14 +61,16 @@ def predict():
     if request.method == 'POST':
         Selection = request.form["Select Table"]
         #output = get_predict_profit(r_d_expenses, administration_expenses, marketing_expenses, state)
+        if Selection == 'fifth':
+            return redirect("https://fifth-table-shaanu.herokuapp.com/")
         if Selection == 'four':
             return redirect("https://fourth-table-for-shaanu.herokuapp.com/")
         elif Selection == 'three':
-            return redirect("https://third-table-shaanu.herokuapp.com/")
+            return redirect("https://fourth-table-for-shaanu.herokuapp.com/")
         elif Selection == 'two':
-            return redirect("https://second-table-shaanu.herokuapp.com/")
+            return redirect("https://fourth-table-for-shaanu.herokuapp.com/")
         elif Selection == 'one':
-            return redirect("https://first-table-shaanu.herokuapp.com/")
+            return redirect("https://fourth-table-for-shaanu.herokuapp.com/")
 
 
     #return redirect("https://fourth-table-for-shaanu.herokuapp.com/")
