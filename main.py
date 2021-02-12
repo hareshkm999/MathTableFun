@@ -66,11 +66,11 @@ def predict():
         if Selection == 'four':
             return redirect("https://fourth-table-for-shaanu.herokuapp.com/")
         elif Selection == 'three':
-            return redirect("https://third-table-for-shaanu.herokuapp.com/")
+            return redirect("https://third-table-shaanu.herokuapp.com/")
         elif Selection == 'two':
-            return redirect("https://second-table-for-shaanu.herokuapp.com/")
+            return redirect("https://second-table-shaanu.herokuapp.com/")
         elif Selection == 'one':
-            return redirect("https://first-table-for-shaanu.herokuapp.com/")
+            return redirect("https://first-table-shaanu.herokuapp.com/")
 
 
     #return redirect("https://fourth-table-for-shaanu.herokuapp.com/")
